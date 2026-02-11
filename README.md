@@ -1,6 +1,6 @@
-# 🔷 Digital Logic Circuit Analyzer & Simplifier (C++)
+#  Digital Logic Circuit Analyzer & Simplifier (C++)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a complete Digital Logic Circuit Analyzer implemented in C++.
 
@@ -16,7 +16,7 @@ The project combines theoretical Boolean algebra with practical algorithm implem
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 Given a digital logic circuit:
 
@@ -31,9 +31,9 @@ Given a digital logic circuit:
 
 ---
 
-# 🏗 System Features
+#  System Features
 
-## 1️⃣ Circuit Input
+##  Circuit Input
 
 The system supports:
 
@@ -51,7 +51,7 @@ Example:
 
 ---
 
-## 2️⃣ Truth Table Generation
+##  Truth Table Generation
 
 The program:
 
@@ -68,7 +68,7 @@ Where `n` is number of inputs.
 
 ---
 
-## 3️⃣ Logical Classification
+##  Logical Classification
 
 After building the truth table, the system checks:
 
@@ -83,7 +83,7 @@ If at least one output = 1
 
 ---
 
-## 4️⃣ Circuit Equivalence
+## Circuit Equivalence
 
 To verify simplification:
 
@@ -95,7 +95,7 @@ To verify simplification:
 
 ---
 
-# 🔬 Boolean Simplification Method
+#  Boolean Simplification Method
 
 The simplification module is inspired by the **Quine–McCluskey algorithm**.
 
@@ -190,7 +190,7 @@ Since all outputs are 1:
 
 ---
 
-# 🏗 Code Architecture
+#  Code Architecture
 
 Main components:
 
@@ -211,17 +211,7 @@ Techniques used:
 
 ---
 
-# ▶ How to Compile & Run
-
-### Compile:
-g++ logic_analyzer.cpp -o logic
-
-### Run:
-./logic
-
----
-
-# 📚 Learning Outcomes
+#  Learning Outcomes
 
 Through this project, I gained strong understanding of:
 
@@ -231,33 +221,6 @@ Through this project, I gained strong understanding of:
 - Algorithmic simplification
 - Translating mathematical logic into C++ code
 - Structured program design
-
----
-
-# 🚀 Future Improvements
-
-- Full Quine–McCluskey with essential prime implicants
-- Karnaugh Map visualization
-- Object-Oriented refactoring
-- GUI version
-- Performance optimization
-- Unit testing support
-
----
-
-# 👨‍💻 Author
-
-Hassan Ebrahim  
-Engineering Student  
-Digital Logic & Discrete Mathematics  
-
----
-
-# 📌 Academic Context
-
-Developed for:
-PHM311s – Discrete Mathematics  
-Topic: Digital Logic Circuit Simplification
 
 
 
