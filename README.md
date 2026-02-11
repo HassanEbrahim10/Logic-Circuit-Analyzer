@@ -14,7 +14,7 @@ It was developed for Discrete Mathematics / Digital Logic Design to:
 
 The project combines theoretical Boolean algebra with practical algorithm implementation.
 
----
+-----
 
 #  Project Objectives
 
@@ -37,7 +37,7 @@ Given a digital logic circuit:
 
 The system supports:
 
-### 🔹 Equation Mode
+###  Equation Mode
 User directly enters a Boolean expression.
 
 Supported operators:
@@ -120,7 +120,7 @@ F = ~( ((A ∧ B) ∧ C) ∧ ((A ∧ B) ∧ ~C) )
 
 ---
 
-# 🧠 Analytical Simplification
+#  Analytical Simplification
 
 ### Step 1: Expand
 
@@ -165,13 +165,13 @@ F = ~c = t = t "Tautology"
 
 ---
 
-# ✅ Final Simplified Expression
+#  Final Simplified Expression
 
 F = t
 
 ---
 
-# 📊 Truth Table Verification
+#  Truth Table Verification
 
 | A | B | C | F |
 |---|---|---|---|
